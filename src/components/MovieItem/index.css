@@ -1,0 +1,51 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.thumbnail_image {
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.popup_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 16px;
+  background-color: transparent;
+}
+
+.modal_container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: aqua;
+}
+.closeIcon {
+  align-self: flex-end;
+}
+.close_btn {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.img_btn {
+  border: none;
+  background-color: transparent;
+}
